@@ -9,10 +9,10 @@
     border: 1px solid #011B53;
     border-radius: 8px;
 }
-.uploadingfile-content .left input['type=file'] {
+/* .uploadingfile-content .left input['type=file'] {
     overflow: hidden;
     width: 0;
-  }
+  } */
   .uploadingfile-content  label {
       font-size: 13px;
   }
