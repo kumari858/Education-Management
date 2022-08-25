@@ -1,0 +1,47 @@
+#navbarDropdown {
+      color: #011B53;
+  }
+  div#collapsibleNavbar.collapsing,div#collapsibleNavbar.show{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    background-color: #fff;
+  }
+  #menu-toggle {
+    cursor: pointer;
+  }
+  .icon {
+      font-size: 28px;
+  }
+  
+  .topNav {
+    border-bottom: 1px solid lightgray;
+    width: calc(100% - 240px);
+    z-index: 9999 !important;
+  }
+  
+  .content-bg {
+    background: rgba(189, 195, 199, 0.2);
+  }
+
+  .customToggle::after{
+  display: none;
+  }
+  .navbar-nav .dropdown-menu{
+    position: absolute !important;
+  }
+  .dropdowntop {
+    inset: 25px auto auto 0px !important;
+  }
+  @media only screen and (max-width: 600px) {
+    
+    .topNav {
+      position: fixed  !important;
+      width: 100%;
+      z-index: 9999 !important;
+    }
+    /* .logo {
+      width: 100px !important;
+    } */
+  
+  }

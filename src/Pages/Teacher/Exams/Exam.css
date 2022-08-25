@@ -1,0 +1,77 @@
+.exam-background {
+    background: rgba(5, 6, 15, 0.2);
+    z-index: 9999 !important;
+    height: 100vh;
+}
+#AllExams{
+    margin-bottom: 100px;
+}
+.Exam-breadcrumb {
+    height: 70px;
+    width: calc(100% - 210px);
+    background: #E8E8E8;
+    margin-top: 57px;
+    z-index: 9988 !important;
+}
+
+.link {
+    font-size: 22px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .Exam-breadcrumb {
+        height: 70px;
+        width: 100%;
+        margin-top: 78px !important;
+    }
+}
+
+.examupload-btn {
+    z-index: 9999 !important;
+    border: 0;
+    width: fit-content;
+    padding: 10px 15px;
+    background: #EA4444;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 36px;
+    color: white;
+    right: 50px;
+    top: 73px;
+    width: 130px;
+    height: 38px;
+}
+
+.exam-header {
+    /* width: 100px; */
+    border: 0;
+    border-bottom: 4px solid #ff6584 !important; 
+  }
+.exam-disable {
+    color: rgba(70, 67, 83, 0.6);
+
+}
+
+.vertical-line {
+    border-left: 2px solid #838383 ;
+    height: 15px;
+    /* width: 3px; */
+}
+  
+@media only screen and (max-width: 800px) {
+    .examupload-btn {
+        border-radius: 100%;
+        padding: 9px;
+        position: fixed;
+        bottom: 50px;
+        top: auto;
+        width: 40px;
+        height: 40px;
+       
+    }
+ }
