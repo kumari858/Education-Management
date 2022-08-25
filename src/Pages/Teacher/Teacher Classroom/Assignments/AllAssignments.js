@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../../../Components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
-import { Frame29, Addition } from '../../../../images/Icons/icons';
+import { Frame29 } from '../../../../images/Icons/icons';
 import {IoIosAdd} from 'react-icons/all';
 import { TeacherDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
 import BreadCrumbs from '../../../../Components/BreadCrumbs/BreadCrumbs';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ConductedNavbar } from '../../../../Components/ExamNavbar/ExamNavbar';
-import { DownArrow, Cross } from '../../../../images/Icons/icons';
+//import { DownArrow, Cross } from '../../../../images/Icons/icons';
 import Navbar from '../../../../Components/Navbar/Navbar';
 import './Conducted.css';
 

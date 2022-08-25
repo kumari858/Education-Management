@@ -35,17 +35,17 @@ export default function Navbar({title, toggleSidebar}) {
 
               />
               <div className="dropdown d-md-none">
-                <a type="text" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a type="text" id=" dropdownMenuButton" data-toggle="dropdown " aria-haspopup="true" aria-expanded="false">
                   <img
                     width="40"
                     height="40"
                     className="user-img rounded-full rounded-md "
-                    src={images}
+                    src={images }
                     alt="user"
                   />
                 </a>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="/ ">
                     <BiUser />
                     My Profile
                   </a>

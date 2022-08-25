@@ -65,8 +65,8 @@ export default function Studentattendance({ sidebarOpen, toggleSidebar }) {
       ];
     
     const[date, setDate]=useState('');
-    const[classname,setClassname]= useState('');
-    const [subject,setSubject]= useState('');
+    // const[classname,setClassname]= useState('');
+    // const [subject,setSubject]= useState('');
 
     const handleChangeDate =(e)=>{
         const newdate= e.target.value;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ConductedNavbar } from '../../../../Components/ExamNavbar/ExamNavbar';
 import ResultInfo from '../../../../Components/ExamModal/ResultInfo/ResultInfo';
-import { DownArrow, Cross, RightArrow1 } from '../../../../images/Icons/icons';
+import { RightArrow1 } from '../../../../images/Icons/icons';
 import Navbar from '../../../../Components/Navbar/Navbar';
 import './StudentExamDetails.css';
 

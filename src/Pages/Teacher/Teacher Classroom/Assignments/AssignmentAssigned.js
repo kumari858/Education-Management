@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../../../Components/Navbar/Navbar';
-import { TeacherDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
+//import { TeacherDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
 import { Link } from 'react-router-dom';
 import {  Frame29 } from '../../../../images/Icons/icons';
 import BreadCrumbs from '../../../../Components/BreadCrumbs/BreadCrumbs';

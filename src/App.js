@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Picker from './Components/Options/Picker/Picker';

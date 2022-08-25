@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {IoIosAdd,IoIosClose} from 'react-icons/all';
+import {IoIosAdd} from 'react-icons/all';
 import './Fileupload.css';
 import { PDFReader } from 'reactjs-pdf-reader';
 import {VscChromeClose} from 'react-icons/all';

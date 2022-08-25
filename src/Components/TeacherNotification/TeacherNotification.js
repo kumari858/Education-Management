@@ -1,8 +1,8 @@
 import React,{useState} from "react";
 import "./TeacherNotification.css";
-import Ellipse from '../../images/Ellipse.svg';
-import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
-import { IoClose } from "react-icons/all";
+// import Ellipse from '../../images/Ellipse.svg';
+// import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+// import { IoClose } from "react-icons/all";
 import ModalToggle from '../Toggle/ModalToggle/ModalToggle';
 import Select from 'react-select';
 // import {useContext, useState} from 'react';

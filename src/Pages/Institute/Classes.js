@@ -1,25 +1,19 @@
 import React, { useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 // import Table from 'react-bootstrap/Table';
-import images1 from '../../images/jess-bailey-HyoRyMAVpNA-unsplash.jpg';
-import { ThreeDot } from '../../images/Icons/icons';
+// import images1 from '../../images/jess-bailey-HyoRyMAVpNA-unsplash.jpg';
+// import { ThreeDot } from '../../images/Icons/icons';
 import Navbar from "../../Components/Navbar/Navbar";
 import CreateClass from "../../Components/CreateClass/createclass";
 import Filterclass from "../../Components/Filterclass/filterclass";
 import ThreeDotsdrop from "../../Components/ClassThreedots/threedotsDropdown";
-import {
-  AiOutlineAlignRight,
-  IoNotificationsOutline,
-  BiUser,
-  IoIosAdd,
-  FiLogOut,
-} from "react-icons/all";
+import {IoIosAdd} from "react-icons/all";
 
 import "./Classes.css";
 const Classes1 = ({ sidebarOpen, toggleSidebar }) => {
   const [show, setShow] = useState(false);
   const [filter, setFilter] = useState(false);
-  const[back,setBack]=useState("");
+  //const[back,setBack]=useState("");
    return (
     <div id="page-content-wrapper" style={{background:' rgba(189, 195, 199, 0.1)'}} >
         <Navbar title={'Classes'} toggleSidebar={toggleSidebar} />
@@ -69,10 +63,10 @@ const Classes1 = ({ sidebarOpen, toggleSidebar }) => {
               Export <ExpandMoreIcon />
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">
+              <a class="dropdown-item" href="# ">
                 Export PDF
               </a>
-              <a class="dropdown-item" href="#">
+              <a class="dropdown-item" href="# ">
                 Export Excel
               </a>
             </div>

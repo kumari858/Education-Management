@@ -1,5 +1,5 @@
 import React ,{useState}from 'react';
-import {BsThreeDotsVertical, FaClosedCaptioning} from "react-icons/all";
+import {BsThreeDotsVertical} from "react-icons/all";
 import EditClass from '../Edit/Editclass';
 import EditTiming from '../Settiming/settiming';
 import './threedotsDropdown.css';

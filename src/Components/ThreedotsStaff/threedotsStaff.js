@@ -21,10 +21,10 @@ const ThreeDotsStaff = () => {
           className="dropdown-menu p-1 mr-sm-5"
           aria-labelledby="dropdownMenuButton"
         >
-          <a type="button" data-toggle="modal" data-target="#exampleModalCenter1"  className="dropdown-item" href="#" onClick={() => setEdit(true)}>
+          <a type="button" data-toggle="modal" data-target="#exampleModalCenter1"  className="dropdown-item" href="# " onClick={() => setEdit(true)}>
             Edit
           </a>
-          <a className="dropdown-item" href="#">
+          <a className="dropdown-item" href="# ">
             Delete
           </a>
         </div>

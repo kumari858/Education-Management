@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../../../../Components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
-import { Addition, Frame29 } from '../../../../images/Icons/icons';
+import { Frame29 } from '../../../../images/Icons/icons';
 import {IoIosAdd} from 'react-icons/all';
-import image from '../../../../images/sticky-note.png';
 import { TeacherDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
 import BreadCrumbs from '../../../../Components/BreadCrumbs/BreadCrumbs';
 import './StudyMaterial.css';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from '../../Navbar/Navbar';
-import { ExamNavbar } from '../../ExamNavbar/ExamNavbar';
+// import Navbar from '../../Navbar/Navbar';
+// import { ExamNavbar } from '../../ExamNavbar/ExamNavbar';
 import { DownArrow } from '../../../images/Icons/icons';
 import {  MdDelete } from 'react-icons/all';
 import './Collaborator.css';

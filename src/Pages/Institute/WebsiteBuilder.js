@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
 import question from '../../images/question.png';
-import { Cross } from '../../images/Icons/icons';
+//import { Cross } from '../../images/Icons/icons';
 import AboutWebsiteModal from '../../Components/AboutWebsiteModal/AboutWebsiteModal';
 import { Link } from 'react-router-dom';
 import './WebsiteBuilder.css';

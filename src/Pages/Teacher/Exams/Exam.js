@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import Navbar  from '../../../Components/Navbar/Navbar';
-import { Frame29, Addition } from '../../../images/Icons/icons';
+import { Frame29 } from '../../../images/Icons/icons';
 import { SharedDropdown, DraftedDropdown, ConductedDropdown } from '../../../Components/TeacherDropdown/TeacherDropdown';
-import { Link,Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Exam.css';
 import ExamModal from '../../../Components/ExamModal/ExamDetails/ExamDetails';
 import {IoIosAdd} from 'react-icons/all';
-import CreateExam from './CreateExam/CreateExam';
-import Conducted from '../Exams/ConductedExam/Conducted';
-import NonConducted from '../Exams/NonConductedExam/NonConducted';
+
 // import ExamName from '../../../Components/ExamModal/ExamName/ExamName';
 // import ResultInfo from '../../../Components/ExamModal/ResultInfo/ResultInfo';
 

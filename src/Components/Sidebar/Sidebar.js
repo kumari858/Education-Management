@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { ProfileUser, DashboardAll, ClassesAll, StudentsAll, InstituteExam, SettingsAll, LogoutAll } from '../../images/Icons/icons';
 import {BuilderIcon} from '../../images/Icons/icons';
-import { RiGroupLine, IoCheckboxOutline } from 'react-icons/all';
+import { IoCheckboxOutline } from 'react-icons/all';
 import { Link } from "react-router-dom";
 import  images  from "../../images/userimg.jpg";
 import  logo  from '../../images/4_dark_bg (1).png';

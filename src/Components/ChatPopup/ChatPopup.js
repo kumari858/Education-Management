@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BiFace, TiAttachmentOutline, MdSend} from 'react-icons/all';
+import { BiFace, TiAttachmentOutline} from 'react-icons/all';
 import { Send1 } from '../../images/Icons/icons'
 import { Cross1, Doubt, Doubt1, DoubtChatbox } from '../../images/Icons/icons';
 import "./ChatPopup.css";

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Institutetable.css';
-import ChatBoxbutton from '../ChatPopup/ChatPopup';
+//import ChatBoxbutton from '../ChatPopup/ChatPopup';
 
 export default function InstituteTables({changeData, data}) {
 

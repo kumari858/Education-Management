@@ -1,12 +1,12 @@
 import React, { useRef, useState, useEffect } from 'react';
 import BreadCrumbs from '../../../../Components/BreadCrumbs/BreadCrumbs';
 import Navbar from '../../../../Components/Navbar/Navbar';
-import {RiArrowUpSLine} from 'react-icons/all';
+//import {RiArrowUpSLine} from 'react-icons/all';
 import { Add, DownArrow } from '../../../../images/Icons/icons';
-import { DropdownAdd, PostDropdown, StudentDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
+import { DropdownAdd, StudentDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
 import { Link } from 'react-router-dom';
-import { PDFReader } from 'reactjs-pdf-reader';
-import {Openpdf, Fileupload} from '../../../../Components/TeacherModal/Fileupload/Fileupload';
+//import {  } from 'reactjs-pdf-reader';
+import { Fileupload} from '../../../../Components/TeacherModal/Fileupload/Fileupload';
 // import {Fileupload} from '../../../../Components/TeacherModal/Fileupload/Fileupload';
 
   

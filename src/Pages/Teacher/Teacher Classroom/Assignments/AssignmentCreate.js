@@ -2,12 +2,12 @@ import React, { useEffect, useState, useRef } from 'react';
 import Navbar from '../../../../Components/Navbar/Navbar';
 import { Add, DownArrow } from '../../../../images/Icons/icons';
 // import {RiArrowUpSLine} from 'react-icons/all';
-import { DropdownAdd, PostDropdown, StudentDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
+import { DropdownAdd, StudentDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
 import { Link } from 'react-router-dom';
 import './AssignmentCreate.css';
 import BreadCrumbs from '../../../../Components/BreadCrumbs/BreadCrumbs';
 import DatePicker from "react-datepicker";
-import {Openpdf, Fileupload} from '../../../../Components/TeacherModal/Fileupload/Fileupload';
+import {Fileupload} from '../../../../Components/TeacherModal/Fileupload/Fileupload';
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function AssignmentCreate({ toggleSidebar, sidebarOpen }) {

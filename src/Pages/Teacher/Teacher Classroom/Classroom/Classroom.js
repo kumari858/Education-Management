@@ -5,7 +5,6 @@ import { Add, Send, DownArrow } from '../../../../images/Icons/icons';
 import image from '../../../../images/writing.png'
 import Navbar from '../../../../Components/Navbar/Navbar';
 import images from '../../../../images/userimg.jpg';
-import {RiArrowUpSLine} from 'react-icons/all';
 import { DropdownAdd, PostDropdown, StudentDropdown, TeacherDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
 import BreadCrumbs from '../../../../Components/BreadCrumbs/BreadCrumbs';
 

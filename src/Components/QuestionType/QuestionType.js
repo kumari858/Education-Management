@@ -1,6 +1,6 @@
 import React from 'react';
-import { GrFormAdd, IoMdCloudDownload, BiImageAdd, MdModeEdit, MdDelete } from 'react-icons/all';
-import { DownArrow, Cross } from '../../images/Icons/icons';
+import { BiImageAdd } from 'react-icons/all';
+import { Cross } from '../../images/Icons/icons';
 import './QuestionType.css';
 
 

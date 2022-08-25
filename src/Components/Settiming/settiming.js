@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import CloseIcon from "@material-ui/icons/Close";
+//import CloseIcon from "@material-ui/icons/Close";
 
 const EditTiming = (props) => {
   if (!props.time) {

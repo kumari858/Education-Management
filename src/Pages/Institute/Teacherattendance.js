@@ -152,10 +152,10 @@ export default function Studentattendance({ sidebarOpen, toggleSidebar }) {
                   Export <ExpandMoreIcon />
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href=" ">
                     Export PDF
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href=" ">
                     Export Excel
                   </a>
                 </div>

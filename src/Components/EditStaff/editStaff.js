@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./editstaff.css";
 import Select from 'react-select';
-import Ellipse from "../../images/Ellipse.svg";
+//import Ellipse from "../../images/Ellipse.svg";
 import ModalToggle from '../Toggle/ModalToggle/ModalToggle';
 export default function EditStaff(props) {
   const [inname, setInname] = useState();

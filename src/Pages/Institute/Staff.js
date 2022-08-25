@@ -4,16 +4,9 @@ import "./Staff.css";
 import ThreeDotsStaff from "../../Components/ThreedotsStaff/threedotsStaff";
 import Navbar from "../../Components/Navbar/Navbar";
 import Filterclass from "../../Components/Filterclass/filterclass";
-import {
-  BsThreeDotsVertical,
-  IoNotificationsOutline,
-  BiUser,
-  FiLogOut,
-  AiOutlineAlignRight,
-  IoIosAdd,
-} from "react-icons/all";
-import Dropdown from "react-bootstrap/Dropdown";
-import images from "../../images/userimg.jpg";
+import { IoIosAdd} from "react-icons/all";
+//import Dropdown from "react-bootstrap/Dropdown";
+//import images from "../../images/userimg.jpg";
 import TeacherNotification from "../../Components/TeacherNotification/TeacherNotification";
 export default function Staff({  sidebarOpen, toggleSidebar  }) {
   const [show, setShow] = useState(false);
@@ -76,7 +69,6 @@ export default function Staff({  sidebarOpen, toggleSidebar  }) {
         <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
           className=" btn text-white classes-btn rounded-pill d-flex justify-content-center align-items-center"
           style={{fontSize:"13px",backgroundColor:"#EA4444",width:"120px",height: '45px',border:" 1px solid #EA4444", borderRadius :"20px", boxShadow:"0px 8px 20px rgba(27, 38, 59, 0.15)",color:"#fff"}}
-          type="button"
           onClick={() => setShow(true)} >
           <IoIosAdd size={20}  className="font-weight-bold text-white"/>
             Add Teacher

@@ -1,7 +1,7 @@
 import React from 'react';
 import BreadCrumbs from '../../../../Components/BreadCrumbs/BreadCrumbs';
 import Navbar  from '../../../../Components/Navbar/Navbar';
-import { ThreeDot, Frame29 } from '../../../../images/Icons/icons';
+import {  Frame29 } from '../../../../images/Icons/icons';
 import { TeacherDropdown } from '../../../../Components/TeacherDropdown/TeacherDropdown';
 import './Assignment.css';
 

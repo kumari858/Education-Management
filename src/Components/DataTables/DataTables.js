@@ -1,6 +1,6 @@
 import React from 'react';
 import './DataTables.css';
-import ChatBoxbutton from '../ChatPopup/ChatPopup';
+//import ChatBoxbutton from '../ChatPopup/ChatPopup';
 
 export default function DataTables({changeData, data}) {
 

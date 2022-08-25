@@ -1,5 +1,5 @@
 import React from 'react';
-import top from '../../images/jeswin-thomas-wRdYnqXtyYk-unsplash.jpg'
+//import top from '../../images/jeswin-thomas-wRdYnqXtyYk-unsplash.jpg'
 import top1 from '../../images/Group 223.png';
 import top2 from '../../images/Group 221.png';
 import why from '../../images/Group 225.png';

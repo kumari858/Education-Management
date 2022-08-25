@@ -1,5 +1,5 @@
-import React,{useState} from "react";
-import Form from "react-bootstrap/Form";
+import React from "react";
+//import Form from "react-bootstrap/Form";
 import './Editstudents.css';
 export default function Editstudent(props) {
 //   const [inname,setInname] = useState();

@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import ThreedotsStudent from "../../Components/ThreedotsStudent/ThreedotsStudent";
 import { IoIosAdd } from "react-icons/all";
-import images from "../../images/userimg.jpg";
-import Dropdown from "react-bootstrap/Dropdown";
-import logo from "../../images/logo.png";
-import frame from "../../images/Frame 28.png";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Navbar from "../../Components/Navbar/Navbar";
 import Addstudent from "../../Components/Addstudent/Addstudent";
@@ -157,10 +153,10 @@ export default function Student({ sidebarOpen, toggleSidebar }) {
                   Import <ExpandMoreIcon />
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="# ">
                     Import PDF
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="# ">
                     Import Excel
                   </a>
                 </div>
@@ -178,10 +174,10 @@ export default function Student({ sidebarOpen, toggleSidebar }) {
                   Export <ExpandMoreIcon />
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="# ">
                     Export PDF
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="# ">
                     Export Excel
                   </a>
                 </div>

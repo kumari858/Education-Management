@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef, forwardRef} from 'react';
+import React, { useState, useEffect, useRef} from 'react';
 import './TeacherDropdown.css';
 import { Upload, LinkImg, ThreeDot  } from '../../images/Icons/icons';
-import Fileupload from '../TeacherModal/Fileupload/Fileupload';
+//import Fileupload from '../TeacherModal/Fileupload/Fileupload';
 
 
 const DropdownAdd = React.forwardRef((props,ref) => {  

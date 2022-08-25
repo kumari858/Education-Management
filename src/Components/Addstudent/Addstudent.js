@@ -1,8 +1,8 @@
-import React,{useState} from "react";
+import React from "react";
 import Form from "react-bootstrap/Form";
-import Ellipse from '../../images/Ellipse.svg';
-import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
-import { IoClose } from "react-icons/all";
+// import Ellipse from '../../images/Ellipse.svg';
+// import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+// import { IoClose } from "react-icons/all";
 import './Addstudent.css';
 // import {useContext, useState} from 'react';
 
